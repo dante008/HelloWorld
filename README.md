@@ -36,11 +36,11 @@ public NetworkInfo networkInfo;
 		}
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_get_ip, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.activity_get_ip, menu);
+//        return true;
+//    }
     public String getLocalIPAddress(){
     	try {
 			for(Enumeration<NetworkInterface>mEnumeration=NetworkInterface.getNetworkInterfaces();mEnumeration.hasMoreElements();){
